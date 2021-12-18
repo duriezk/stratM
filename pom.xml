@@ -11,6 +11,12 @@
 		<maven.compiler.target>14</maven.compiler.target>
 		<sonar.host.url>http://im2ag-sonar.u-ga.fr:9000</sonar.host.url>
 	</properties>
+	<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
 	<dependencies>
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
